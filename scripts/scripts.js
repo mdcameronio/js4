@@ -40,11 +40,11 @@ function enter(){
 // this is a helper function that formats user input
 // so user can input Jane or jane upper case or lower case
 function fixinput(nam){
-    console.log(nam);
+
     nam = nam.toLowerCase();
-    console.log(nam);
+
     nam = nam.charAt(0).toUpperCase() + nam.slice(1)
-    console.log(nam+"new");
+
     return nam;
 }
 
